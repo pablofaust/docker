@@ -1,2 +1,1 @@
-docker login
 docker pull hello-world
