@@ -1,1 +1,1 @@
-docker run --name Abathur -p 3000:3000 python:2-slim
+docker run --name Abathur -p 3000:3000 -v /root:/root python:2-slim
