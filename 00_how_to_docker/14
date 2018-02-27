@@ -1,1 +1,1 @@
-docker run --name lair -p 8080:80 --mount src=spawning-pool,target=/app -d wordpress
+docker run --name lair -p 8080:80 spawning-pool:mysql -d wordpress
